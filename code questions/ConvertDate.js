@@ -14,6 +14,10 @@ function formatDate(userDate) {
     let mm = parts[0].toString()
     let dd = parts[1].toString()
 
+    let stringPart = JSON.stringify(parts)
+    let yyy = stringPart[2]
+    let mmm = stringPart[0]
+    let ddd = stringPart[1]
 
     return y+m+d
   }
