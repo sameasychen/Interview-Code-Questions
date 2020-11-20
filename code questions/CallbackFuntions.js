@@ -15,7 +15,8 @@ let calcu=(a,b,callback)=>{
 console.log(add(2,3))
 console.log(multiply(2,3))
 console.log(calcu(2,3,add))
-console.log(calcu(2,3,doWhatever))
+calcu(2,5,doWhatever)
+
 
 var myArr = [{
     num: 5,
@@ -34,6 +35,16 @@ myArr.sort((val1, val2)=>{
         return -1;
     } else {
         return 1;
+    }
+})
+
+console.log(myArr)
+
+myArr.sort((vall1, vall2)=>{
+    if(vall1.num>vall2.num){
+        return 1;
+    } else {
+        return -1;
     }
 })
 

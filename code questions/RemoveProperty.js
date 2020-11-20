@@ -9,7 +9,22 @@ const hero = {
     cute:'no'
 }
 
-// console.log(hero)
+// let removeProp=(obj, prop)=>{
+
+//     console.log(obj[prop])
+
+//     if (obj[prop]){
+//         delete obj[prop]
+//     }else{
+//         console.log("no prop")
+//     }
+
+//     console.log(obj)
+// }
+
+// removeProp(hero,'yes');
+
+
 
 function removeProperty(obj, prop) {
 

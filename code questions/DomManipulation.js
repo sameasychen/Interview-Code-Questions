@@ -24,3 +24,19 @@ buttonDel.addEventListener('click', function(){
     listHTML.removeChild(listHTML.childNodes[0])
     
 })
+
+// buttonAdd.addEventListener("click", ()=>{
+//     const newLi = document.createElement("LI");
+//     const newLiContent = document.createTextNode(`${inputHTML.value}`)
+
+//     newLi.appendChild(newLiContent);
+
+//     listHTML.appendChild(newLi);
+
+//     inputHTML.value =""
+// })
+
+// buttonDel.addEventListener('click', ()=>{
+//     console.log(listHTML.childNodes[0])
+//     listHTML.removeChild(listHTML.childNodes[0])
+// })
